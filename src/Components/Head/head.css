@@ -1,0 +1,46 @@
+.header {
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid darkcyan;
+    background-color: darkcyan;
+    margin: 100px;
+}
+
+.head p {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head h1 {
+    padding-left: 60px;
+}
+
+.head li {
+    display: inline-block;
+    padding: 30px;
+    color: whitesmoke;
+}
+
+#btn button {
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: darkblue;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 50%;
+}
+
+#btn :hover {
+    background-color: #4caf50;
+}

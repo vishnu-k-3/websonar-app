@@ -1,0 +1,34 @@
+.item {
+    display: flex;
+    padding: 8px;
+    border: 1px solid black;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.item img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height:100px;
+}
+
+.item h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.item p {
+    padding-left: 440px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.item:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
